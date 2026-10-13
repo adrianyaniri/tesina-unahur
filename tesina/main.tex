@@ -1,0 +1,69 @@
+\documentclass[12pt,a4paper]{report}
+
+% Idioma y codificación
+\usepackage[spanish,es-nodecimaldot]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Márgenes
+\usepackage[
+    top=2.5cm,
+    bottom=2.5cm,
+    left=3cm,
+    right=2.5cm
+]{geometry}
+
+
+% Interlineado
+\usepackage{setspace}
+\onehalfspacing
+
+% Documento
+\begin{document}
+
+% Portada
+\begin{titlepage}
+
+\centering
+
+{\large Universidad Nacional de Hurlingham\par}
+
+\vspace{1cm}
+
+{\large Licenciatura en Informática\par}
+
+\vspace{3cm}
+
+{\Large\bfseries
+Modelización usando redes neuronales artificiales de la sección de cordones de soldadura mediante análisis de imágenes
+\par}
+
+\vspace{2cm}
+
+{\large Tesina de grado\par}
+
+\vfill
+
+{\large
+Autor: Adrian Yaniri
+\par}
+
+\vspace{0.5cm}
+
+{\large
+2026
+\par}
+
+\end{titlepage}
+% Índice
+\tableofcontents
+% Capítulos
+% Capítulos
+\include{chapters/01_introduccion}
+\include{chapters/02_estado_arte}
+\include{chapters/03_marco_teorico}
+\include{chapters/04_metodologia}
+\include{chapters/05_resultados_discusion}
+\include{chapters/06_conclusiones}
+
+\end{document}

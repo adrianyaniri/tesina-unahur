@@ -1,0 +1,42 @@
+\chapter{Introducción}
+
+La soldadura es uno de los principales procesos utilizados para la unión de materiales metálicos y 
+se encuentra presente en diferentes sectores industriales. 
+
+Las características del resultado obtenido dependen de las condiciones en las que se realiza el proceso y pueden influir en las propiedades y en la calidad de la unión. Entre estas características se encuentra la geometría del cordón de soldadura, que puede variar según los parámetros utilizados durante el proceso.
+
+Como resultado del proceso se forma un cordón de soldadura cuya geometría puede variar de acuerdo con las condiciones de operación. El análisis de esta geometría permite obtener información sobre la unión y constituye una etapa relevante para su caracterización. 
+
+Una forma de estudiar la geometría del cordón consiste en analizar su sección transversal. A partir de una imagen de esta sección es posible identificar y medir diferentes características geométricas de la geometri del cordón. Este análisis permite obtener información cuantitativa de las muestras y generar datos que pueden ser utilizados posteriormente para el desarrollo de modelos computacionales.
+
+En el ámbito de la formación de soldadores, los simuladores constituyen una alternativa para complementar las prácticas realizadas mediante métodos tradicionales. Estos sistemas permiten reproducir determinadas condiciones del proceso de soldadura sin requerir el consumo de materiales durante las etapas de entrenamiento. Además, pueden reducir algunos de los costos asociados a la capacitación y brindar un entorno controlado para la práctica.
+
+Uno de los aspectos que debe resolverse en este tipo de sistemas es la representación de la deposición del material durante la soldadura. Para representar este comportamiento es necesario establecer una relación entre las condiciones en las que se realiza el proceso y la geometría resultante del cordón. Esta relación depende de diferentes parámetros de soldadura, por lo que su modelización puede ser abordado mediante técnicas de aprendizaje automático.
+
+Las redes neuronales artificiales ofrecen una alternativa para modelizar relaciones entre diferentes variables a partir de datos obtenidos experimentalmente. En particular, un perceptrón multicapa permite establecer relaciones entre un conjunto de variables de entrada y una o más variables de salida mediante un proceso de entrenamiento basado en ejemplos conocidos. Esta característica permite considerar su utilización para estudiar la relación entre las condiciones de un proceso de soldadura y la geometría obtenida en el cordón.
+
+A partir de lo anterior, este trabajo se centra en la modelización de la geometría de la sección transversal de cordones de soldadura mediante redes neuronales artificiales. Para ello, se utilizarán imágenes correspondientes a secciones transversales de cordones obtenidos bajo condiciones de soldadura conocidas. Sobre estas imágenes se estudiará la representación del contorno de la sección mediante puntos de control, con el propósito de establecer una relación entre las condiciones del proceso y la geometría resultante.
+
+El desarrollo del trabajo comprende la preparación de un conjunto de datos a partir de las imágenes disponibles, la identificación de las variables involucradas, el entrenamiento de un perceptrón multicapa y la evaluación de los resultados obtenidos. A partir de este proceso se busca determinar en qué medida una red neuronal puede representar la relación entre las condiciones de soldadura y el contorno de la sección del cordón.
+
+\section{Objetivos}
+
+\subsection{Objetivo general}
+
+Desarrollar y evaluar un modelo basado en un perceptrón multicapa (MLP), a partir del análisis de imágenes de secciones transversales de cordones de soldadura, que permita relacionar las condiciones del proceso de soldadura con las coordenadas de puntos de control definidos sobre el contorno de la sección del cordón.
+
+\subsection{Objetivos específicos}
+
+\begin{itemize}
+
+\item Estudiar los fundamentos de las redes neuronales artificiales y del perceptrón multicapa (MLP) para su aplicación a la modelización de la geometría de los cordones de soldadura.
+
+\item Analizar las imágenes de las secciones transversales de los cordones de soldadura y definir una representación de su contorno mediante la identificación manual de puntos de control a partir de un sistema de referencia común.
+
+\item Construir un conjunto de datos que relacione las condiciones de cada experiencia de soldadura con las coordenadas de los puntos de control identificados en la sección transversal del cordón.
+
+\item Desarrollar y entrenar un modelo basado en un perceptrón multicapa para predecir las coordenadas de los puntos de control a partir de las condiciones del proceso de soldadura.
+
+\item Evaluar el desempeño del modelo mediante la comparación de las coordenadas predichas por el MLP con las correspondientes a las muestras experimentales, analizando su capacidad para representar la geometría del contorno de la sección del cordón.
+
+\end{itemize}
